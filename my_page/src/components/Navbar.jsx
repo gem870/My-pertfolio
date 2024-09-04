@@ -2,6 +2,7 @@ import React from "react";
 import menu from './assets/hamburger.png';
 import close from './assets/cross-mark.png';
 import { useState, useEffect } from "react";
+import logo from './assets/Untitled design.png'
 
 
 const Navbar = () => {
@@ -20,10 +21,15 @@ const Navbar = () => {
     <div className="flex items-center justify-center h-[100px] bg-[#000300] pt-1">
       <div className="flex mt-[-10px] ">
         <div className="h-[60px] w-[60px] bg-slate-600 rounded-full  mx-auto mt-10 border-4 border-[#04b8b2] md:h-[100px] md:w-[100px]">
-        <div className="border-8 w-6 h-6 animate-spin border-[#c53d62] md:h-[60px] md:w-[60px] rounded-full m-4 border-dashed">
+      
+                    <img
+                        src={logo}
+                            alt="Full Image"
+                            className="w-full h-full object-cover  rounded-full"
+                    />
+                  </div>
 
-        </div>
-        </div>
+        
         <h1 className="text-[#04b8b2] font-bold text-2xl px-2 pt-[60px] md:text-5xl md:pt-[80px] md:pl-4">
           Emmanuel Victor
         </h1>
@@ -48,8 +54,8 @@ const Navbar = () => {
 {/* Phone Nav */}
     <div className={!nav ? "block mx-3  ease-in duration-500 md:hidden bg-[#000300] bg-opacity-80" : "fixed left-[-100%] ease-out duration-1000"}>
       <ul className="  text-gray-400 items-center justify-center py-2 border-b border-b-gray-800">
-        <li className="px-5 py-1 text-[15px] hover:text-[#fa2d5d] hover:shadow-custom transition-shadow duration-300">About</li>
-        <li className="px-5 py-1 text-[15px] hover:text-[#fa2d5d] hover:shadow-custom transition-shadow duration-300">Projects</li>
+        <a href="#about"><li className="px-5 py-1 text-[15px] hover:text-[#fa2d5d] hover:shadow-custom transition-shadow duration-300">About</li></a>
+        <a href="#projects"><li className="px-5 py-1 text-[15px] hover:text-[#fa2d5d] hover:shadow-custom transition-shadow duration-300">Projects</li></a>
         <li className="px-5 py-1 text-[15px] hover:text-[#fa2d5d] hover:shadow-custom transition-shadow duration-300" onClick={handleContact}>Contact</li>
       </ul>
     </div>

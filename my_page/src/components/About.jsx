@@ -10,7 +10,7 @@ const About = () => {
 
           <div className="grid md:flex  min-w-10 items-center justify-center h-[600px] ">
 
-            <div className=' ml-20 md:ml-0 text-gray-400 w-[250px]'>
+            <div className=' ml-[80px] md:ml-0 text-gray-400 w-[250px]'>
 
                   <div className="border-2 border-[#04b8b2] h-[300px] md:h-[250px]  rounded-3xl flex items-center justify-center  bg-cover bg-center">
                     <img

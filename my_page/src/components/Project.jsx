@@ -34,11 +34,11 @@ const { isLoading, error, data } = useQuery("portfolio", () =>
                   </div>
   
   
-                      <div className=" flex flex-col h-[480px] w-[480px]  md:max-w-[450px] absolute  bg-gray-900 bg-opacity-70 rounded-md ">
+                      <div className=" flex flex-col h-[480px] md:w-[480px]  md:max-w-[450px] absolute  bg-gray-900 bg-opacity-70 rounded-md ">
                         
                         <div>
-                         <h2 className='font-bold text-[#c53d62] text-xl p-1 pt-3'>{item.title}</h2>
-                         <div className='h-[330px]'>
+                         <h2 className='font-bold text-[#c53d62] text-xl p-1 pt-3 ml-[20px]'>{item.title}</h2>
+                         <div className='h-[330px] scroll-container'>
                          <p className='text-gray-300 pl-4' dangerouslySetInnerHTML={{__html:item.body}}>
                         
                           </p>
