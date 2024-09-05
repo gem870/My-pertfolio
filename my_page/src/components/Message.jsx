@@ -39,13 +39,13 @@ const Message = () => {
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
-                        required className="my-1 md:ml-2 md:my-6 py-2 px-2 md:w-[350px] bg-[#28302a] rounded-md text-gray-100 border border-gray-500" placeholder="full name"/>  <br />
+                        required className="my-1 md:ml-2 md:my-6 py-2 px-2 w-[230px] md:w-[350px] bg-[#28302a] rounded-md text-gray-100 border border-gray-500" placeholder="full name"/>  <br />
                                 
                     <input  type="text"
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        required className="my-1 md:ml-2 md:my-1 py-2 px-2 md:w-[350px] bg-[#28302a] rounded-md text-gray-100 border border-gray-500" placeholder="mail"/> 
+                        required className="my-1 md:ml-2 md:my-1 py-2 px-2 w-[230px] md:w-[350px] bg-[#28302a] rounded-md text-gray-100 border border-gray-500" placeholder="mail"/> 
                             
                 </div>
 
