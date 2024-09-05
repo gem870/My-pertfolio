@@ -26,7 +26,7 @@ const Message = () => {
         };
 
     return ( 
-        <div id="message" className="mx-auto text-center flex flex-col justify-center shadow-custom mt-20 md:w-[1000px] mb-20">
+        <div id="message" className="mx-auto text-center flex flex-col justify-center shadow-custom mt-20 w-[280px] md:w-[1000px] mb-20">
             <div className=" text-gray-500 text-[20px] mt-20 mb-10 mx-auto text-center flex flex-col justify-center ">
             <h2 className="p-5 font-bold text-[15px] md:text-[15px]">I would love to here from you.</h2>
 
@@ -39,13 +39,13 @@ const Message = () => {
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
-                        required className="my-1 md:ml-2 md:my-6 py-2 px-2 w-[230px] md:w-[350px] bg-[#28302a] rounded-md text-gray-100 border border-gray-500" placeholder="full name"/>  <br />
+                        required className="my-1 md:ml-2 md:my-6 py-2 px-2 w-[250px] md:w-[350px] bg-[#28302a] rounded-md text-gray-100 border border-gray-500" placeholder="full name"/>  <br />
                                 
                     <input  type="text"
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        required className="my-1 md:ml-2 md:my-1 py-2 px-2 w-[230px] md:w-[350px] bg-[#28302a] rounded-md text-gray-100 border border-gray-500" placeholder="mail"/> 
+                        required className="my-1 md:ml-2 md:my-1 py-2 px-2 w-[250px] md:w-[350px] bg-[#28302a] rounded-md text-gray-100 border border-gray-500" placeholder="mail"/> 
                             
                 </div>
 
@@ -55,7 +55,7 @@ const Message = () => {
                      value={formData.message}
                      onChange={handleChange}
                      required
-                    placeholder="message"  className="px-[10px] mt-2 w-[230px] md:w-[255px] bg-[#28302a] rounded-md text-gray-100 border border-gray-500 h-[200px]"></textarea>
+                    placeholder="message"  className="px-[10px] mt-2 w-[250px] md:w-[255px] bg-[#28302a] rounded-md text-gray-100 border border-gray-500 h-[200px]"></textarea>
                 </div>
                 </div>
 
