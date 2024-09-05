@@ -6,7 +6,7 @@ const About = () => {
 
     return ( 
        <div id='about'>
-          <div className=" max-w-[1000px] mt-[-96px] w-full h-[500px] mx-auto text-center flex flex-col justify-center mb-[600px] md:mb-[70px]">
+          <div className=" max-w-[1000px] mt-[-96px] w-full h-[500px] mx-auto text-center flex flex-col justify-center mb-[800px] md:mb-[70px]">
 
           <div className="grid md:flex  min-w-10 items-center justify-center h-[600px] ">
 
@@ -55,7 +55,7 @@ const About = () => {
 
             </div>
 
-                <div className="scroll-container p-2 border   border-gray-600 m-2  h-[200px] md:h-[500px] md:w-[1000px] rounded-md bg-[#000000] text-gray-500">
+                <div className="scroll-container p-2 border h-[500px]  border-gray-600 m-2  md:h-[500px] md:w-[1000px] rounded-md bg-[#000000] text-gray-500">
                     <p>I am a passionate and skilled web developer with over 2 years of experience specializing in the MERN stack (MongoDB, Express.js, React, and Node.js). My expertise lies in building dynamic, responsive, and scalable web applications that deliver a seamless user experience. I enjoy tackling complex problems and translating them into efficient, elegant code.
 
                         Throughout my career, I’ve worked on a variety of projects, from creating robust APIs to designing intuitive front-end interfaces. My strong foundation in JavaScript, combined with my knowledge of database management and server-side logic, allows me to develop end-to-end solutions that meet both user needs and business objectives.
