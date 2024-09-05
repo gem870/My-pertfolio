@@ -55,7 +55,7 @@ const Message = () => {
                      value={formData.message}
                      onChange={handleChange}
                      required
-                    placeholder="message"  className="px-[10px] mt-2 md:w-[255px] bg-[#28302a] rounded-md text-gray-100 border border-gray-500 h-[200px]"></textarea>
+                    placeholder="message"  className="px-[10px] mt-2 w-[230px] md:w-[255px] bg-[#28302a] rounded-md text-gray-100 border border-gray-500 h-[200px]"></textarea>
                 </div>
                 </div>
 
